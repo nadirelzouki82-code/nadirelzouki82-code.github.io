@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تاب سوفتوير | حلول برمجية للمستقبل – Web3 والذكاء الاصطناعي</title>
+    
+    <meta name="description" content="تاب سوفتوير تقدم حلول برمجية متكاملة، بنية Web3، أنظمة ERP مدعومة بالذكاء الاصطناعي، والتحول الرقمي للشركات حول العالم. مقرها بوكا راتون، فلوريدا.">
+    <meta name="keywords" content="تاب سوفتوير, Web3, ذكاء اصطناعي, أنظمة ERP, التحول الرقمي, بوكا راتون">
+    <meta name="author" content="Tap Software">
+    
+    <meta property="og:title" content="تاب سوفتوير | حلول برمجية للمستقبل – Web3 والذكاء الاصطناعي">
+    <meta property="og:description" content="حلول برمجية متطورة للعصر الرقمي.">
+    <meta property="og:type" content="website">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/logos.css">
+    <link rel="stylesheet" href="assets/css/web3.css">
+    
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+        .lang-switcher { position: fixed; top: 85px; left: 20px; z-index: 10000; background: white; padding: 8px 16px; border-radius: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .lang-switcher a { color: #0A66C2; text-decoration: none; font-weight: 600; }
+        .web3-status { right: auto !important; left: 20px !important; top: 140px !important; }
+        @media (max-width: 768px) {
+            .lang-switcher { top: 75px; left: 15px; }
+            .web3-status { top: 130px !important; left: 15px !important; }
+        }
+    </style>
+</head>
+<body>
 
+<div class="lang-switcher"><a href="index.html">English</a></div>
+
+<div class="web3-status" id="web3Status">
+    <div class="status-dot"></div>
+    <span id="walletAddress">جاهز لـ Web3</span>
+    <button id="connectWalletBtn" class="wallet-btn"><i class="fas fa-plug"></i> ربط المحفظة</button>
+</div>
+
+<div class="top-navbar">
+    <div class="nav-container">
+        <div class="company-logo">
+            <div class="logo-icon"><i class="fas fa-cube"></i></div>
+            <div class="logo-text">
+                <span class="logo-main">تاب سوفتوير</span>
+                <span class="logo-sub">مؤسسة • Web3 • ذكاء اصطناعي</span>
+            </div>
+        </div>
+        <nav class="main-menu">
+            <a href="#about" class="menu-link">عن الشركة</a>
+            <a href="#services" class="menu-link">خدماتنا</a>
+            <a href="#products" class="menu-link">منتجاتنا</a>
+            <a href="#web3" class="menu-link">Web3</a>
+            <a href="#contact" class="menu-link">اتصل بنا</a>
+        </nav>
+        <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+    </div>
+</div>
+
+<header>
+    <div class="hero-badge"><i class="fas fa-cube"></i><span>Web3 • ذكاء اصطناعي • مؤسسات</span></div>
+    <h1>حلول برمجية<br>للمستقبل الرقمي</h1>
+    <p>تاب سوفتوير تقدم حلولاً برمجية من الجيل التالي مدعومة بالذكاء الاصطناعي وتقنيات Web3. حول مؤسستك بأنظمة آمنة وقابلة للتطوير ومبتكرة.</p>
+    <div class="cta-buttons">
+        <a href="#contact" class="cta-btn"><i class="fas fa-rocket"></i> ابدأ مشروعك</a>
+        <a href="#web3" class="cta-btn secondary"><i class="fas fa-cube"></i> استكشف Web3</a>
+    </div>
+    <div class="hero-nav">
+        <a href="#about">عن الشركة</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#products">منتجاتنا</a>
+        <a href="#web3">حلول Web3</a>
+        <a href="#contact">اتصل بنا</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2>عن شركة تاب سوفتوير</h2>
+    <p style="text-align:center; max-width:900px; margin:auto;">مقرها في <strong>بوكا راتون، فلوريدا</strong>، تاب سوفتوير هي شركة تقنية رائدة تقدم حلول برمجية للمؤسسات، وبنية Web3، وأنظمة مدعومة بالذكاء الاصطناعي، وخدمات التحول الرقمي.</p>
+</section>
+
+<section id="why">
+    <h2>لماذا تختار تاب سوفتوير؟</h2>
+    <div class="grid">
+        <div class="card"><div class="service-icon">🇺🇸</div><b>خبرة أمريكية</b><p class="service-desc">مقرنا في بوكا راتون — نخدم العملاء عالمياً.</p></div>
+        <div class="card"><div class="service-icon">🔒</div><b>أمان المؤسسات</b><p class="service-desc">متوافق مع ISO 27001 وSOC 2 وGDPR.</p></div>
+        <div class="card"><div class="service-icon">🌐</div><b>Web3 متقدم</b><p class="service-desc">بلوك تشين، عقود ذكية، تطبيقات لا مركزية.</p></div>
+        <div class="card"><div class="service-icon">🤝</div><b>شراكة طويلة الأمد</b><p class="service-desc">شريكك التقني الموثوق لسنوات.</p></div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>خدماتنا</h2>
+    <div class="grid">
+        <div class="service-card"><div class="service-icon">🚀</div><div class="service-title">التحول الرقمي</div><div class="service-desc">استراتيجيات متكاملة للتحول الرقمي.</div></div>
+        <div class="service-card"><div class="service-icon">🛡️</div><div class="service-title">الأمن السيبراني</div><div class="service-desc">حماية متقدمة ومراقبة 24/7.</div></div>
+        <div class="service-card"><div class="service-icon">☁️</div><div class="service-title">الحوسبة السحابية</div><div class="service-desc">حلول AWS وAzure وهجينة.</div></div>
+        <div class="service-card"><div class="service-icon">💼</div><div class="service-title">أنظمة ERP</div><div class="service-desc">تطبيقات ERP مخصصة.</div></div>
+        <div class="service-card"><div class="service-icon">🧠</div><div class="service-title">الذكاء الاصطناعي</div><div class="service-desc">نماذج AI مخصصة وتحليلات تنبؤية.</div></div>
+        <div class="service-card"><div class="service-icon">🌐</div><div class="service-title">تطوير Web3</div><div class="service-desc">بلوك تشين، عقود ذكية، تطبيقات لامركزية.</div></div>
+    </div>
+</section>
+
+<section id="web3" class="web3-section">
+    <h2>حلول Web3 والبلوك تشين</h2>
+    <p class="text-center" style="max-width:800px; margin:0 auto 40px;">استعد للمستقبل اللامركزي مع تقنيات Web3 المتطورة</p>
+    <div class="grid">
+        <div class="service-card web3-card"><div class="service-icon">⛓️</div><div class="service-title">العقود الذكية</div><div class="service-desc">عقود ذكية آمنة لتطبيقات DeFi وNFT.</div></div>
+        <div class="service-card web3-card"><div class="service-icon">💎</div><div class="service-title">منصات NFT</div><div class="service-desc">أسواق NFT ومنصات إصدار مخصصة.</div></div>
+        <div class="service-card web3-card"><div class="service-icon">🏦</div><div class="service-title">حلول DeFi</div><div class="service-desc">تطبيقات وبروتوكولات التمويل اللامركزي.</div></div>
+        <div class="service-card web3-card"><div class="service-icon">🔗</div><div class="service-title">تكامل البلوك تشين</div><div class="service-desc">Ethereum، Solana، Polygon، حلول متعددة السلاسل.</div></div>
+    </div>
+</section>
+
+<section id="products">
+    <h2>منتجاتنا</h2>
+    <div class="grid">
+        <div class="card"><div class="service-icon">💼</div><b>تاب ERP السحابي</b><p>نظام ERP متكامل مع تحليلات ذكاء اصطناعي.</p><button class="btn" onclick="toggle('p1')">التفاصيل</button><div id="p1" class="details">• إدارة مالية • تحليلات فورية • نسخ احتياطي سحابي</div></div>
+        <div class="card"><div class="service-icon">💳</div><b>تاب نقاط البيع</b><p>نظام مبيعات متعدد القنوات.</p><button class="btn" onclick="toggle('p2')">التفاصيل</button><div id="p2" class="details">• إدارة المبيعات • تتبع المخزون • فواتير إلكترونية</div></div>
+        <div class="card"><div class="service-icon">🔗</div><b>Web3 Bridge</b><p>منصة تكامل البلوك تشين للمؤسسات.</p><button class="btn" onclick="toggle('p5')">التفاصيل</button><div id="p5" class="details">• دعم سلاسل متعددة • نشر العقود الذكية • تكامل المحافظ</div></div>
+    </div>
+</section>
+
+<section id="security">
+    <h2>حلول الأمن السيبراني</h2>
+    <div class="grid">
+        <div class="service-card"><div class="service-icon">🌐</div><div class="service-title">أمن الشبكات</div><div class="service-desc">جدران نارية، حماية DDoS.</div></div>
+        <div class="service-card"><div class="service-icon">🔐</div><div class="service-title">الهوية والوصول</div><div class="service-desc">MFA، SSO، بنية الثقة المعدومة.</div></div>
+        <div class="service-card"><div class="service-icon">⛓️</div><div class="service-title">أمن Web3</div><div class="service-desc">تدقيق العقود الذكية وأمن البلوك تشين.</div></div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>اتصل بنا</h2>
+    <p style="text-align:center;">📍 101 Plaza Real S, Suite 200, Boca Raton, FL 33432<br>📞 +1 (561) 555‑TAP1 | ✉️ hello@tapsoftware.com</p>
+    <div class="contact-form">
+        <h3>ابدأ رحلتك الرقمية</h3>
+        <form action="send.php" method="POST">
+            <input type="text" name="name" placeholder="الاسم الكامل" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+            <select name="interest">
+                <option>حلول المؤسسات</option>
+                <option>Web3 والبلوك تشين</option>
+                <option>الذكاء الاصطناعي</option>
+                <option>الأمن السيبراني</option>
+            </select>
+            <textarea name="message" rows="4" placeholder="أخبرنا عن مشروعك..."></textarea>
+            <button class="btn">إرسال الرسالة <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 تاب سوفتوير — حلول برمجية متكاملة. جميع الحقوق محفوظة</p>
+    <p><a href="privacy.html">سياسة الخصوصية</a> | <a href="terms.html">شروط الاستخدام</a></p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/web3.js"></script>
+<script>function toggle(id){var e=document.getElementById(id);if(e)e.style.display=e.style.display==='block'?'none':'block';}</script>
+</body>
+</html>
